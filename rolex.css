@@ -5,7 +5,7 @@ h2{
     color:aquamarine
 }
 body{
-    margin: 2;
+    margin: 5;
 }
 .image1:hover{
 transform:scale(1.05);
@@ -109,4 +109,5 @@ transform:scale(1.05);
 transform:scale(1.05);
 
 }
+
 
