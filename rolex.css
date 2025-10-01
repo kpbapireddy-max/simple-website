@@ -171,4 +171,38 @@ h1:hover {
 
 .p3ceo:hover {
     transform: scale(1.05);
+}    transform: scale(1.05);
 }
+
+.ceo2:hover {
+    transform: scale(1.05);
+}
+
+.ceo3:hover {
+    transform: scale(1.05);
+}
+
+.ceo {
+    display: flex;
+    flex: wrap;
+    gap: 7px;
+}
+
+.pceo {
+    display: flex;
+    flex: wrap;
+    gap: 10px;
+}
+
+.p1ceo:hover {
+    transform: scale(1.05);
+}
+
+.p2ceo:hover {
+    transform: scale(1.05);
+}
+
+.p3ceo:hover {
+    transform: scale(1.05);
+}
+
