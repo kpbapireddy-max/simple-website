@@ -1,6 +1,31 @@
 /* Universal rounded corners for all elements */
 * {
-    border-radius: 10px;
+    border-radius: 15px !important;
+}
+
+/* Additional specific rounded corners for better visibility */
+div,
+section,
+article,
+header,
+footer,
+nav,
+main,
+aside {
+    border-radius: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button {
+    border-radius: 15px;
 }
 
 h1 {
@@ -15,10 +40,8 @@ body {
     margin: 5;
 }
 
-/* U-shaped edges for all images */
 img {
-    border-radius: 0 0 50px 50px;
-    /* Creates U-shape with curved bottom */
+    /* Removed border-radius for straight edges */
     border: 3px solid gold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
@@ -35,30 +58,53 @@ img {
 .container2 img,
 .ceo img,
 .pceo img {
-    border-radius: 0 0 60px 60px;
-    /* More pronounced U-shape */
+    /* Removed border-radius for straight edges */
     border: 4px solid gold;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.image1 {
+    /* Removed border-radius for straight edges */
 }
 
 .image1:hover {
     transform: scale(1.05);
 }
 
+.image2 {
+    /* Removed border-radius for straight edges */
+}
+
 .image2:hover {
     transform: scale(1.05);
+}
+
+.image3 {
+    /* Removed border-radius for straight edges */
 }
 
 .image3:hover {
     transform: scale(1.05);
 }
 
+.image4 {
+    /* Removed border-radius for straight edges */
+}
+
 .image4:hover {
     transform: scale(1.05);
 }
 
+.image5 {
+    /* Removed border-radius for straight edges */
+}
+
 .image5:hover {
     transform: scale(1.05);
+}
+
+.image6 {
+    /* Removed border-radius for straight edges */
 }
 
 .image6:hover {
@@ -171,38 +217,4 @@ h1:hover {
 
 .p3ceo:hover {
     transform: scale(1.05);
-}    transform: scale(1.05);
 }
-
-.ceo2:hover {
-    transform: scale(1.05);
-}
-
-.ceo3:hover {
-    transform: scale(1.05);
-}
-
-.ceo {
-    display: flex;
-    flex: wrap;
-    gap: 7px;
-}
-
-.pceo {
-    display: flex;
-    flex: wrap;
-    gap: 10px;
-}
-
-.p1ceo:hover {
-    transform: scale(1.05);
-}
-
-.p2ceo:hover {
-    transform: scale(1.05);
-}
-
-.p3ceo:hover {
-    transform: scale(1.05);
-}
-
