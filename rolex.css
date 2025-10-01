@@ -1,113 +1,169 @@
-h1{
-    color:violet
+h1 {
+    color: violet
 }
-h2{
-    color:aquamarine
+
+h2 {
+    color: aquamarine
 }
-body{
+
+body {
     margin: 5;
 }
-.image1:hover{
-transform:scale(1.05);
+
+/* U-shaped edges for all images */
+img {
+    border-radius: 0 0 50px 50px;
+    /* Creates U-shape with curved bottom */
+    border: 3px solid gold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
-.image2:hover{
-transform:scale(1.05);
+
+/* Special styling for different image groups */
+.rolexsymbol {
+    border-radius: 50%;
+    /* Circular for symbol */
+    border: 3px solid gold;
 }
-.image3:hover{
-transform:scale(1.05);
+
+.container img,
+.container2 img,
+.ceo img,
+.pceo img {
+    border-radius: 0 0 60px 60px;
+    /* More pronounced U-shape */
+    border: 4px solid gold;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
-.image4:hover{
-transform:scale(1.05);
+
+.image1:hover {
+    transform: scale(1.05);
 }
-.image5:hover{
-transform:scale(1.05);
+
+.image2:hover {
+    transform: scale(1.05);
 }
-.image6:hover{
-transform:scale(1.05);
+
+.image3:hover {
+    transform: scale(1.05);
 }
-.firstrow{
-    display:flex;
-    flex:wrap;
-    gap:7px;
+
+.image4:hover {
+    transform: scale(1.05);
 }
-.secondrow{
-    display:flex;
-    flex:wrap;
-    gap:7px;
+
+.image5:hover {
+    transform: scale(1.05);
 }
-.text:hover{
-transform:scale(1.1);
+
+.image6:hover {
+    transform: scale(1.05);
 }
-.rolexsymbol:hover{
-transform:scale(1.5);
-}.symbol1:hover{
-transform:scale(1.05);
-}
-.symbol2:hover{
-transform:scale(1.05);
-}
-.symbol3:hover{
-transform:scale(1.05);
-}
-.symbol4:hover{
-transform:scale(1.05);
-}
-.symbol5:hover{
-transform:scale(1.05);
-}
-.symbol6:hover{
-transform:scale(1.05);
-}
-.symbolfirstrow{
-    display:flex;
-    flex:wrap;
-    gap:7px;
-}
-.symbolsecondrow{
-    display:flex;
-    flex:wrap;
-    gap:7px;
-}
-.text:hover{
-transform:scale(1.1);
-}
-.rolexsymbol:hover{
-transform:scale(1.5);
-}
-h2:hover{
-    transform:scale(1.01);
-}
-h1:hover{
-    transform:scale(1.01);
-}
-.ceo1:hover{
-transform:scale(1.05);
-}
-.ceo2:hover{
-transform:scale(1.05);
-}
-.ceo3:hover{
-transform:scale(1.05);
-}
-.ceo{
-    display:flex;
-    flex:wrap;
+
+.firstrow {
+    display: flex;
+    flex: wrap;
     gap: 7px;
 }
-.pceo{
-    display:flex;
-    flex:wrap;
-    gap:10px;
-}
-.p1ceo:hover{
-transform:scale(1.05);
-}
-.p2ceo:hover{
-transform:scale(1.05);
-}
-.p3ceo:hover{
-transform:scale(1.05);
 
+.secondrow {
+    display: flex;
+    flex: wrap;
+    gap: 7px;
 }
 
+.text:hover {
+    transform: scale(1.1);
+}
 
+.rolexsymbol:hover {
+    transform: scale(1.5);
+}
+
+.symbol1:hover {
+    transform: scale(1.05);
+}
+
+.symbol2:hover {
+    transform: scale(1.05);
+}
+
+.symbol3:hover {
+    transform: scale(1.05);
+}
+
+.symbol4:hover {
+    transform: scale(1.05);
+}
+
+.symbol5:hover {
+    transform: scale(1.05);
+}
+
+.symbol6:hover {
+    transform: scale(1.05);
+}
+
+.symbolfirstrow {
+    display: flex;
+    flex: wrap;
+    gap: 7px;
+}
+
+.symbolsecondrow {
+    display: flex;
+    flex: wrap;
+    gap: 7px;
+}
+
+.text:hover {
+    transform: scale(1.1);
+}
+
+.rolexsymbol:hover {
+    transform: scale(1.5);
+}
+
+h2:hover {
+    transform: scale(1.01);
+}
+
+h1:hover {
+    transform: scale(1.01);
+}
+
+.ceo1:hover {
+    transform: scale(1.05);
+}
+
+.ceo2:hover {
+    transform: scale(1.05);
+}
+
+.ceo3:hover {
+    transform: scale(1.05);
+}
+
+.ceo {
+    display: flex;
+    flex: wrap;
+    gap: 7px;
+}
+
+.pceo {
+    display: flex;
+    flex: wrap;
+    gap: 10px;
+}
+
+.p1ceo:hover {
+    transform: scale(1.05);
+}
+
+.p2ceo:hover {
+    transform: scale(1.05);
+}
+
+.p3ceo:hover {
+    transform: scale(1.05);
+}
