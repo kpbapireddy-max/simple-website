@@ -17,7 +17,7 @@ body {
              }
 .image1:hover {
                 transform: scale(1.05);
-               
+                border: 3px solid gold;
               }
 .image2:hover {
                 transform: scale(1.05); 
@@ -151,6 +151,4 @@ h1:hover {
 .p3ceo:hover {
     transform: scale(1.05);
 }
-img{
-border: 3px solid gold;
-}
+
