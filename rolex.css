@@ -15,10 +15,7 @@ body {
                 /* Circular for symbol */
                 border: 3px solid gold;
              }
-.image1       {
-                border-radius: 50%;
-                border: 3px solid gold;
-              }
+
 .image1:hover {
                 transform: scale(1.05);
               }
@@ -40,8 +37,7 @@ body {
 
 
 .image5:hover {
-    transform: scale(1.05); border: 3px solid gold;
-}
+    transform: scale(1.05);
 
 
 .image6:hover {
@@ -155,6 +151,11 @@ h1:hover {
 .p3ceo:hover {
     transform: scale(1.05);
 }
+     img {
+                border-radius: 50%;
+                border: 3px solid gold;
+           }     
+
 
 
 
