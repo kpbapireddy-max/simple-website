@@ -100,13 +100,9 @@ body {
     gap: 7px;
 }
 
-.text:hover {
-    transform: scale(1.1);
-}
 
-.rolexsymbol:hover {
-    transform: scale(1.5);
-}
+
+
 
 h2:hover {
     transform: scale(1.01);
@@ -151,11 +147,7 @@ h1:hover {
 .p3ceo:hover {
     transform: scale(1.05);
 }
-     img {
-                border-radius: 50%;
-                border: 3px solid gold;
-           }     
-
+    
 
 
 
