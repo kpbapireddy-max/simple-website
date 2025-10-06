@@ -15,13 +15,14 @@ body {
                 /* Circular for symbol */
                 border: 3px solid gold;
              }
-.image1:hover {
-                transform: scale(1.05);
-              }
-.image1 {
+.image1       {
                 border-radius: 50%;
                 border: 3px solid gold;
               }
+.image1:hover {
+                transform: scale(1.05);
+              }
+
 .image2:hover {
                 transform: scale(1.05); 
                  
@@ -154,6 +155,7 @@ h1:hover {
 .p3ceo:hover {
     transform: scale(1.05);
 }
+
 
 
 
